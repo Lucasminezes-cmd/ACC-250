@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Wine4iu - comércio varejista de bebidas, vinhos e adega em São Paulo - SP.">
-  <meta name="keywords" content="vinhos, bebidas, adega, wine, harmonização, Vila Guarani, São Paulo, SP">
+  <meta name="description" content="Wine4iu - adega de vinhos e bebidas, com curadoria e entrega em São Paulo - SP.">
+  <meta name="keywords" content="adega, vinhos, bebidas, wine, rótulos, espumantes, harmonização, entrega, Vila Guarani, São Paulo">
   <meta name="author" content="VLADIA CHELLA FONTES VIOLANTE LTDA">
   <meta name="geo.region" content="BR-SP">
   <meta name="geo.placename" content="SAO PAULO">
   <title>Wine 4iu | SAO PAULO - SP</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='8' fill='%235a1a2e'/><text y='.9em' font-size='40' font-family='sans-serif' font-weight='800' fill='%23dcb37e' x='16'>W4</text></svg>">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='8' fill='%231d3b30'/><text y='.9em' font-size='40' font-family='sans-serif' font-weight='800' fill='%23e0c48c' x='16'>W4</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      --primary: #5a1a2e; --primary-dark: #451323; --primary-deep: #2e0c16; --primary-light: #7e2a44;
-      --accent: #c89456; --accent-dark: #a9763a; --accent-light: #dcb37e;
-      --gold: #c89456; --gold-light: #e8be7a;
-      --bg: #f7f3f4; --bg-2: #ebdde1; --paper: #fafbfc; --white: #ffffff;
-      --ink: #2e0c16; --ink-soft: #5a3b43; --grey: #8e757c;
-      --line: rgba(90,26,46,0.16);
-      --font-display: 'Playfair Display', serif; --font-body: 'Inter', sans-serif;
+      --primary: #1d3b30; --primary-dark: #143028; --primary-deep: #0c1f1a; --primary-light: #3a5e50;
+      --accent: #caa05a; --accent-dark: #a87f38; --accent-light: #e0c48c;
+      --gold: #caa05a; --gold-light: #e8be7a;
+      --bg: #f4f6f2; --bg-2: #e2e8df; --paper: #fafbfc; --white: #ffffff;
+      --ink: #0c1f1a; --ink-soft: #33473f; --grey: #7d8a82;
+      --line: rgba(29,59,48,0.16);
+      --font-display: 'Cormorant Garamond', serif; --font-body: 'Inter', sans-serif;
     }
     html { scroll-behavior: smooth; }
     body { font-family: var(--font-body); background: var(--bg); color: var(--ink); overflow-x: hidden; }
@@ -29,26 +29,26 @@
     ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 4px; }
     nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; padding: 0 4vw; height: 80px; background: rgba(255,255,255,0.96); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
     .nav-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-    .nav-logo-badge { width: 48px; height: 48px; background: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 18px; color: var(--accent-light); font-weight: 800; box-shadow: 0 6px 16px rgba(90,26,46,0.28); }
+    .nav-logo-badge { width: 48px; height: 48px; background: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 18px; color: var(--accent-light); font-weight: 800; box-shadow: 0 6px 16px rgba(29,59,48,0.28); }
     .nav-logo-text { font-family: var(--font-display); font-size: 1.3rem; color: var(--primary-dark); font-weight: 700; letter-spacing: -0.3px; }
     .nav-logo-text span { color: var(--accent-dark); font-weight: 500; }
     .nav-links { display: flex; gap: 2.4rem; list-style: none; }
     .nav-links a { font-family: var(--font-display); font-size: 0.9rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; letter-spacing: 0.3px; transition: color 0.25s; }
     .nav-links a:hover { color: var(--primary); }
-    .nav-cta { color: var(--white) !important; background: var(--primary); padding: 0.55rem 1.4rem; border-radius: 30px; font-weight: 600 !important; transition: background 0.25s, transform 0.2s !important; box-shadow: 0 4px 12px rgba(90,26,46,0.28); }
+    .nav-cta { color: var(--white) !important; background: var(--primary); padding: 0.55rem 1.4rem; border-radius: 30px; font-weight: 600 !important; transition: background 0.25s, transform 0.2s !important; box-shadow: 0 4px 12px rgba(29,59,48,0.28); }
     .nav-cta:hover { background: var(--primary-dark) !important; transform: translateY(-1px); }
     .nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 6px; }
     .nav-hamburger span { display: block; width: 26px; height: 2px; background: var(--primary-dark); transition: all 0.3s; }
-    #hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 130px 4vw 80px; background: linear-gradient(135deg, #2e0c16 0%, #451323 55%, #5a1a2e 100%); color: var(--white); }
+    #hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 130px 4vw 80px; background: linear-gradient(135deg, #0c1f1a 0%, #143028 55%, #1d3b30 100%); color: var(--white); }
     .hero-ornament { position: absolute; right: 5%; top: 50%; transform: translateY(-50%); width: 380px; height: 380px; pointer-events: none; opacity: 0.18; }
     .hero-content { position: relative; z-index: 1; max-width: 760px; }
     .hero-tag { display: inline-flex; align-items: center; gap: 12px; background: rgba(255,255,255,0.08); border: 1px solid var(--accent); padding: 0.55rem 1.3rem; border-radius: 30px; font-family: var(--font-body); font-size: 0.76rem; font-weight: 500; color: var(--accent-light); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 1.8rem; }
-    .hero-tag::before { content: '🍷'; font-size: 1rem; }
+    .hero-tag::before { content: '🍇'; font-size: 1rem; }
     .hero h1 { font-family: var(--font-display); font-size: clamp(3rem, 6.4vw, 5.2rem); line-height: 1.02; letter-spacing: -1.5px; font-weight: 700; color: var(--white); margin-bottom: 1.5rem; }
     .hero h1 .accent { color: var(--accent-light); display: block; }
     .hero-desc { font-family: var(--font-body); font-size: 1.1rem; line-height: 1.75; color: rgba(255,255,255,0.78); max-width: 560px; margin-bottom: 2.4rem; }
     .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
-    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--white); font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.3px; text-decoration: none; padding: 1rem 2.2rem; border: none; cursor: pointer; border-radius: 30px; transition: background 0.25s, transform 0.2s; box-shadow: 0 6px 20px rgba(46,12,22,0.30); }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--white); font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.3px; text-decoration: none; padding: 1rem 2.2rem; border: none; cursor: pointer; border-radius: 30px; transition: background 0.25s, transform 0.2s; box-shadow: 0 6px 20px rgba(12,31,26,0.30); }
     .btn-primary:hover { background: var(--accent-dark); transform: translateY(-2px); }
     .btn-secondary { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--white); color: var(--white); background: transparent; font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; letter-spacing: 0.3px; text-decoration: none; padding: 0.9rem 2.2rem; border-radius: 30px; transition: all 0.25s; }
     .btn-secondary:hover { background: var(--white); color: var(--primary-deep); }
@@ -81,8 +81,8 @@
     .services-header { margin-bottom: 4rem; text-align: center; }
     .services-header .section-desc { margin: 0 auto; }
     .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; }
-    .service-card { background: var(--white); padding: 2.4rem 2rem; transition: all 0.35s; border-radius: 14px; position: relative; box-shadow: 0 2px 10px rgba(90,26,46,0.06); border-top: 3px solid transparent; }
-    .service-card:hover { transform: translateY(-6px); border-top-color: var(--accent); box-shadow: 0 14px 30px rgba(90,26,46,0.14); }
+    .service-card { background: var(--white); padding: 2.4rem 2rem; transition: all 0.35s; border-radius: 14px; position: relative; box-shadow: 0 2px 10px rgba(29,59,48,0.06); border-top: 3px solid transparent; }
+    .service-card:hover { transform: translateY(-6px); border-top-color: var(--accent); box-shadow: 0 14px 30px rgba(29,59,48,0.14); }
     .service-number { font-family: var(--font-body); font-size: 0.74rem; color: var(--accent-dark); margin-bottom: 1rem; font-weight: 600; letter-spacing: 1.3px; text-transform: uppercase; }
     .service-icon { font-size: 2.2rem; margin-bottom: 1rem; display: block; }
     .service-card h3 { font-family: var(--font-display); font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 0.7rem; font-weight: 700; }
@@ -103,16 +103,16 @@
     .contact-item h4 { font-family: var(--font-body); font-size: 0.76rem; font-weight: 600; color: var(--primary); letter-spacing: 1.3px; text-transform: uppercase; margin-bottom: 0.3rem; }
     .contact-item p, .contact-item a { font-family: var(--font-body); font-size: 0.98rem; color: var(--ink-soft); line-height: 1.6; text-decoration: none; }
     .contact-item a:hover { color: var(--primary); }
-    .contact-form-block { background: var(--white); padding: 2.6rem 2.4rem; border-radius: 16px; box-shadow: 0 4px 16px rgba(90,26,46,0.08); }
+    .contact-form-block { background: var(--white); padding: 2.6rem 2.4rem; border-radius: 16px; box-shadow: 0 4px 16px rgba(29,59,48,0.08); }
     .contact-form-block h3 { font-family: var(--font-display); font-size: 1.6rem; color: var(--primary-dark); margin-bottom: 1.5rem; font-weight: 700; }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
     .form-group { margin-bottom: 1rem; }
     .form-group label { display: block; font-family: var(--font-body); font-size: 0.74rem; font-weight: 600; color: var(--ink-soft); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0.4rem; }
     .form-group input, .form-group textarea, .form-group select { width: 100%; background: var(--bg); border: 1px solid var(--line); color: var(--ink); font-family: var(--font-body); font-size: 0.95rem; padding: 0.85rem 1rem; outline: none; transition: border-color 0.3s; border-radius: 8px; }
     .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--primary); }
-    .form-submit { width: 100%; padding: 1.05rem; background: var(--primary); color: var(--white); border: none; font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.3px; cursor: pointer; border-radius: 30px; transition: background 0.25s, transform 0.2s; margin-top: 0.5rem; box-shadow: 0 6px 20px rgba(90,26,46,0.30); }
+    .form-submit { width: 100%; padding: 1.05rem; background: var(--primary); color: var(--white); border: none; font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.3px; cursor: pointer; border-radius: 30px; transition: background 0.25s, transform 0.2s; margin-top: 0.5rem; box-shadow: 0 6px 20px rgba(29,59,48,0.30); }
     .form-submit:hover { background: var(--primary-dark); transform: translateY(-2px); }
-    .form-success { display: none; background: rgba(90,26,46,0.10); border: 1px solid var(--primary); padding: 1rem; color: var(--primary-dark); font-size: 0.92rem; text-align: center; margin-top: 1rem; border-radius: 8px; }
+    .form-success { display: none; background: rgba(29,59,48,0.10); border: 1px solid var(--primary); padding: 1rem; color: var(--primary-dark); font-size: 0.92rem; text-align: center; margin-top: 1rem; border-radius: 8px; }
     .map-stripe { background: var(--primary-deep); color: var(--white); padding: 1.6rem 4vw; display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 4rem; }
     .map-stripe p { font-family: var(--font-body); font-size: 0.96rem; }
     .map-stripe strong { color: var(--accent-light); }
@@ -177,28 +177,28 @@
   <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
 <section id="hero">
-  <div class="hero-ornament" style="background:radial-gradient(circle at 30% 30%, #dcb37e, #c89456);border-radius:50%;filter:blur(1px);"></div>
+  <div class="hero-ornament" style="background:radial-gradient(circle at 30% 30%, #e0c48c, #caa05a);border-radius:50%;filter:blur(1px);"></div>
   <div class="hero-content">
     <div class="hero-tag">Vila Guarani · São Paulo/SP</div>
-    <h1>Vinhos que<br><span class="accent">contam histórias.</span></h1>
-    <p class="hero-desc">Comércio varejista de bebidas e vinhos em São Paulo – SP. Seleção especial para brindar os seus melhores momentos.</p>
+    <h1>Cada garrafa,<br><span class="accent">uma boa história.</span></h1>
+    <p class="hero-desc">Uma adega de vinhos e bebidas selecionados em São Paulo – SP, com curadoria atenta, entrega ágil e a indicação certa para cada brinde.</p>
     <div class="hero-actions">
-      <a href="#contato" class="btn-primary">🍷 Fale Conosco</a>
+      <a href="#contato" class="btn-primary">🍇 Descubra os Rótulos</a>
       <a href="#servicos" class="btn-secondary">Nossos Serviços →</a>
     </div>
-    <div class="hero-stats"><div class="stat-item"><div class="stat-num">2022</div><div class="stat-label">Atuando desde</div></div><div class="stat-item"><div class="stat-num">Wine</div><div class="stat-label">Bebidas & vinhos</div></div><div class="stat-item"><div class="stat-num">SP</div><div class="stat-label">São Paulo & região</div></div></div>
+    <div class="hero-stats"><div class="stat-item"><div class="stat-num">2022</div><div class="stat-label">Atuando desde</div></div><div class="stat-item"><div class="stat-num">Adega</div><div class="stat-label">Curadoria de rótulos</div></div><div class="stat-item"><div class="stat-num">SP</div><div class="stat-label">São Paulo & região</div></div></div>
   </div>
 </section>
 <section id="sobre">
   <div class="section-inner">
     <div class="about-grid">
-      <div class="about-visual reveal"><div class="about-visual-box"><div class="about-icon-grid"><div class="about-icon-item"><span class="icon">🍷</span><h4>Vinhos</h4><p>Seleção especial</p></div><div class="about-icon-item"><span class="icon">🥂</span><h4>Bebidas</h4><p>Para celebrar</p></div><div class="about-icon-item"><span class="icon">🎁</span><h4>Presentes</h4><p>Kits especiais</p></div><div class="about-icon-item"><span class="icon">🤝</span><h4>Curadoria</h4><p>Indicação certa</p></div></div></div></div>
+      <div class="about-visual reveal"><div class="about-visual-box"><div class="about-icon-grid"><div class="about-icon-item"><span class="icon">🍇</span><h4>Rótulos</h4><p>Curadoria atenta</p></div><div class="about-icon-item"><span class="icon">🥂</span><h4>Bebidas</h4><p>Variedade completa</p></div><div class="about-icon-item"><span class="icon">🚚</span><h4>Entrega</h4><p>Ágil na região</p></div><div class="about-icon-item"><span class="icon">✨</span><h4>Experiência</h4><p>Indicação certeira</p></div></div></div></div>
       <div class="about-text reveal">
-        <div class="section-kicker">a adega</div>
-        <h2 class="section-title">Sabor em cada <em>taça</em></h2>
-        <p>A <strong>Wine4iu</strong> (Vladia Chella) atua em São Paulo – SP, especializada no comércio varejista de bebidas (CNAE 47.23-7-00).</p>
-        <p>Oferecemos uma seleção de vinhos e bebidas, com curadoria e atendimento próximo, ajudando você a escolher o rótulo certo para cada ocasião.</p>
-        <p>Compromisso com qualidade e bom gosto. Situação cadastral <strong>ATIVA</strong> perante a Receita Federal desde 2022.</p>
+        <div class="section-kicker">a wine4iu</div>
+        <h2 class="section-title">Da taça à <em>memória</em></h2>
+        <p>A <strong>Wine4iu</strong> (Vladia Chella) é uma adega em São Paulo – SP, especializada no comércio varejista de bebidas (CNAE 47.23-7-00).</p>
+        <p>Reunimos rótulos de vinhos e uma ampla variedade de bebidas, com curadoria atenta e entrega, para que cada ocasião tenha a escolha perfeita.</p>
+        <p>Compromisso com qualidade, bom gosto e atendimento próximo. Situação cadastral <strong>ATIVA</strong> perante a Receita Federal desde 2022.</p>
         <div class="cnpj-badge"><span>CNPJ:</span><strong>48.310.362/0001-05</strong></div>
       </div>
     </div>
@@ -209,9 +209,9 @@
     <div class="services-header reveal">
       <div class="section-kicker">Nossos serviços</div>
       <h2 class="section-title">O que <em>oferecemos</em></h2>
-      <p class="section-desc">Vinhos e bebidas selecionados, com curadoria e bom atendimento.</p>
+      <p class="section-desc">Vinhos, espumantes, bebidas, presentes e entrega — tudo com curadoria.</p>
     </div>
-    <div class="services-grid"><div class="service-card reveal"><div class="service-number">Serviço 01</div><span class="service-icon">🍷</span><h3>Vinhos</h3><p>Comércio varejista de vinhos e bebidas (CNAE 47.23-7-00).</p></div><div class="service-card reveal"><div class="service-number">Serviço 02</div><span class="service-icon">🥂</span><h3>Bebidas em Geral</h3><p>Variedade de bebidas para diferentes ocasiões.</p></div><div class="service-card reveal"><div class="service-number">Serviço 03</div><span class="service-icon">🎁</span><h3>Kits & Presentes</h3><p>Sugestões para presentear com bom gosto.</p></div><div class="service-card reveal"><div class="service-number">Serviço 04</div><span class="service-icon">🧑‍🍳</span><h3>Harmonização</h3><p>Indicações para harmonizar com cada momento.</p></div><div class="service-card reveal"><div class="service-number">Serviço 05</div><span class="service-icon">🚚</span><h3>Entrega</h3><p>Entrega de vinhos e bebidas na sua região.</p></div><div class="service-card reveal"><div class="service-number">Serviço 06</div><span class="service-icon">🤝</span><h3>Curadoria</h3><p>Atendimento que ajuda na escolha ideal.</p></div></div>
+    <div class="services-grid"><div class="service-card reveal"><div class="service-number">Serviço 01</div><span class="service-icon">🍷</span><h3>Vinhos</h3><p>Comércio varejista de vinhos e bebidas (CNAE 47.23-7-00).</p></div><div class="service-card reveal"><div class="service-number">Serviço 02</div><span class="service-icon">🍾</span><h3>Espumantes</h3><p>Espumantes e rótulos para celebrar grandes momentos.</p></div><div class="service-card reveal"><div class="service-number">Serviço 03</div><span class="service-icon">🥃</span><h3>Destilados & Bebidas</h3><p>Ampla variedade de bebidas para cada gosto.</p></div><div class="service-card reveal"><div class="service-number">Serviço 04</div><span class="service-icon">🎁</span><h3>Kits & Presentes</h3><p>Cestas e kits para presentear com elegância.</p></div><div class="service-card reveal"><div class="service-number">Serviço 05</div><span class="service-icon">🧑‍🍳</span><h3>Harmonização</h3><p>Sugestões para harmonizar com cada prato.</p></div><div class="service-card reveal"><div class="service-number">Serviço 06</div><span class="service-icon">🚚</span><h3>Entrega</h3><p>Levamos o seu pedido até você, na região.</p></div></div>
   </div>
 </section>
 <section id="diferenciais">
@@ -219,9 +219,9 @@
     <div class="diff-header reveal">
       <div class="section-kicker">Por que nos escolher</div>
       <h2 class="section-title">Nossos <em>diferenciais</em></h2>
-      <p class="section-desc">Por que escolher a Wine4iu.</p>
+      <p class="section-desc">O que faz da Wine4iu a sua adega de confiança.</p>
     </div>
-    <div class="diff-grid"><div class="diff-card reveal"><div class="diff-icon">🍷</div><h3>Seleção</h3><p>Rótulos e bebidas escolhidos a dedo.</p></div><div class="diff-card reveal"><div class="diff-icon">🥂</div><h3>Curadoria</h3><p>Indicação certa para cada ocasião.</p></div><div class="diff-card reveal"><div class="diff-icon">🤝</div><h3>Atendimento</h3><p>Proximidade e bom gosto no atendimento.</p></div></div>
+    <div class="diff-grid"><div class="diff-card reveal"><div class="diff-icon">🍇</div><h3>Curadoria</h3><p>Rótulos escolhidos com critério e paixão.</p></div><div class="diff-card reveal"><div class="diff-icon">✨</div><h3>Para cada ocasião</h3><p>Do dia a dia às grandes celebrações.</p></div><div class="diff-card reveal"><div class="diff-icon">🚚</div><h3>Praticidade</h3><p>Pedido entregue com agilidade.</p></div></div>
   </div>
 </section>
 <section id="contato">
@@ -229,8 +229,8 @@
     <div class="contact-grid">
       <div class="contact-info-block reveal">
         <div class="section-kicker">Fale conosco</div>
-        <h2 class="section-title">Vamos<br><em>brindar</em></h2>
-        <p class="section-desc" style="margin-bottom:2.5rem">Entre em contato para conhecer nossa seleção de vinhos e bebidas.</p>
+        <h2 class="section-title">Vamos<br><em>abrir uma boa?</em></h2>
+        <p class="section-desc" style="margin-bottom:2.5rem">Fale com a gente para descobrir rótulos, montar kits e pedir entrega.</p>
         <div class="contact-item"><div class="contact-icon">📍</div><div><h4>Endereço</h4><p>R DOMICIANO LEITE RIBEIRO<br>51<br>BLOCO 4 APT 192<br>VILA GUARANI (Z SUL)<br>SAO PAULO - SP<br>CEP: 04.317-900</p></div></div>
         <div class="contact-item"><div class="contact-icon">📞</div><div><h4>Telefone</h4><a href="tel:+554198880068">(41) 9888-0068</a></div></div>
         <div class="contact-item"><div class="contact-icon">✉️</div><div><h4>E-mail</h4><a href="mailto:ABERTURA@CONTABILIZEI.COM.BR">ABERTURA@CONTABILIZEI.COM.BR</a></div></div>
@@ -244,9 +244,9 @@
             <div class="form-group"><label>Telefone *</label><input type="tel" placeholder="(41) 00000-0000" required></div>
           </div>
           <div class="form-group"><label>E-mail</label><input type="email" placeholder="seu@email.com"></div>
-          <div class="form-group"><label>Assunto</label><select><option value="">Selecione...</option><option>Vinhos</option><option>Bebidas em Geral</option><option>Kits & Presentes</option><option>Harmonização</option><option>Outro</option></select></div>
+          <div class="form-group"><label>Assunto</label><select><option value="">Selecione...</option><option>Vinhos</option><option>Espumantes</option><option>Bebidas em Geral</option><option>Kits & Presentes</option><option>Outro</option></select></div>
           <div class="form-group"><label>Mensagem *</label><textarea rows="5" placeholder="Como podemos ajudar..." required></textarea></div>
-          <button type="submit" class="form-submit">🍷 Enviar Mensagem</button>
+          <button type="submit" class="form-submit">🍇 Enviar Mensagem</button>
           <div class="form-success" id="formSuccess">✓ Mensagem enviada! Retornaremos em breve.</div>
         </form>
       </div>
@@ -262,7 +262,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <h2>Wine <span>4iu</span></h2>
-        <p>Comércio varejista de bebidas, vinhos e adega em São Paulo – SP.</p>
+        <p>Adega de vinhos e bebidas, com curadoria e entrega, em São Paulo – SP.</p>
         <div class="footer-official">
           <div class="footer-official-title">Dados Oficiais da Empresa</div>
           <p><strong>VLADIA CHELLA FONTES VIOLANTE LTDA</strong><br>
@@ -272,7 +272,7 @@
           E-mail: ABERTURA@CONTABILIZEI.COM.BR</p>
         </div>
       </div>
-      <div class="footer-col"><h4>Serviços</h4><ul><li><a href="#servicos">Vinhos</a></li><li><a href="#servicos">Bebidas em Geral</a></li><li><a href="#servicos">Kits & Presentes</a></li><li><a href="#servicos">Harmonização</a></li><li><a href="#servicos">Entrega</a></li></ul></div>
+      <div class="footer-col"><h4>Serviços</h4><ul><li><a href="#servicos">Vinhos</a></li><li><a href="#servicos">Espumantes</a></li><li><a href="#servicos">Destilados & Bebidas</a></li><li><a href="#servicos">Kits & Presentes</a></li><li><a href="#servicos">Entrega</a></li></ul></div>
       <div class="footer-col"><h4>Institucional</h4><ul>
         <li><a href="#sobre">Sobre Nós</a></li>
         <li><a href="#diferenciais">Diferenciais</a></li>
